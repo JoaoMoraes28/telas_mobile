@@ -15,8 +15,12 @@ export default function ScreenPresentation() {
         style={{ marginTop: statusBarHeight + 16, paddingBottom: 20 }}
       >
         <View className="flex-row justify-between items-center">
-          <Image source={require('../assets/logo.svg')}
-            resizeMode="contain"></Image>
+          <View className="flex-row gap-1 items-center justify-center">
+            <Image source={require('../assets/logo.svg')}
+          resizeMode="contain"
+          style={{ height: 30, width: 36 }}></Image>
+          <Text className="text-darker-purple text-lg font-poppins uppercase">syncrobaby</Text>
+          </View>
 
           <TouchableOpacity 
           activeOpacity={0.7}
@@ -36,7 +40,7 @@ export default function ScreenPresentation() {
           </Text>
         </View>
 
-        <Text className="text-black text-center text-xl leading-6"
+        <Text className="text-black text-center font-nunito text-xl leading-6"
           style={{ marginTop: statusBarHeight + 30 }}>
           Um aplicativo que organiza a rotina das crianças de forma leve e acolhedora, promovendo o cuidado e harmonia em familia
         </Text>
