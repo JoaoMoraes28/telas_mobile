@@ -1,10 +1,10 @@
 import { ScrollView } from 'react-native';
-import ScreenPresentation from '../screens/presentation';
+import ScreenWelcome from '../screens/welcome';
 
 export default function Home() {
   return (
     <ScrollView>
-      <ScreenPresentation></ScreenPresentation>
+      <ScreenWelcome></ScreenWelcome>
     </ScrollView>
   );
 }

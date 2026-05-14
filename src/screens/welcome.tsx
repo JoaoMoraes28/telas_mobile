@@ -18,10 +18,9 @@ export default function ScreenWelcome() {
         >
           <View className="bg-primary w-full flex items-center justify-center rounded-xl gap-10 pt-3 pb-10">
 
-            <Image source={require('../assets/logo2.svg')}></Image>
+            <Image source={require('../assets/logo.svg')}></Image>
 
-            <Image source={require('../assets/syncrobaby.svg')}
-              resizeMode="contain"></Image>
+           <Text className="text-darker-purple text-4xl font-bold font-poppins uppercase">syncrobaby</Text>
           </View>
 
           <View className="flex flex-col gap-4">
