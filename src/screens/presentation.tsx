@@ -18,8 +18,7 @@ export default function ScreenPresentation() {
           <View className="flex-row gap-1 items-center justify-center">
             <Image source={require('../assets/logo.svg')}
           resizeMode="contain"
-          style={{ height: 30, width: 36 }}></Image>
-          <Text className="text-darker-purple text-lg font-poppins uppercase">syncrobaby</Text>
+          style={{ height: 39, width: 37 }}></Image>
           </View>
 
           <TouchableOpacity 

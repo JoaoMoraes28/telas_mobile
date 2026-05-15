@@ -16,11 +16,8 @@ export default function ScreenWelcome() {
         <View className="w-full px-4 flex-col gap-20"
           style={{ marginTop: statusBarHeight + 60, paddingBottom: 20 }}
         >
-          <View className="bg-primary w-full flex items-center justify-center rounded-xl gap-10 pt-3 pb-10">
-
+          <View className="bg-primary w-full flex items-center justify-center rounded-xl pt-6 pb-10">
             <Image source={require('../assets/logo.svg')}></Image>
-
-           <Text className="text-darker-purple text-4xl font-bold font-poppins uppercase">syncrobaby</Text>
           </View>
 
           <View className="flex flex-col gap-4">
